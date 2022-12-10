@@ -1,18 +1,42 @@
-import React from "react";
+import React,{useEffect} from "react";
+import { gsap } from "gsap/dist/gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const logos = ["/html.png", "/css.png", "/AWS.png", "/PHP.png"];
 
 const Skills = () => {
+  const animation = () => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to(".gsap-title-skill", {
+      scrollTrigger: ".gsap-title-skill",
+      y: "0%",
+      duration: 1,
+      delay: 0.2,
+      opacity: 1,
+    });
+    gsap.to(".gsap-section-skill", {
+      scrollTrigger: ".gsap-section-skill",
+      x: "0%",
+      duration: 1,
+      delay: 0.2,
+      opacity: 1,
+    });
+
+  }
+    useEffect(() => {
+      animation();
+    }, []);
   return (
     <main id="skills" className="h-fit p-[2rem] mx-[13%]">
-      <div className="flex w-full justify-center items-center mt-12">
+      <div className="gsap-title-skill translate-y-[50%] opacity-0  flex w-full justify-center items-center mt-12">
         <span className="h-[0.3rem] w-[10rem] bg-secondary rounded-[50%] shadow-[0_0_0.5rem_#71EAC6] mr-6 "></span>
         <h1 className="xl:text-[3.5rem] md:text-[3rem] sm:text-[2.5rem] text-[2rem] text-border tracking-[0.2rem]">
           Skills
         </h1>
         <span className="h-[0.3rem] w-[10rem] bg-secondary rounded-[50%] shadow-[0_0_0.5rem_#71EAC6] ml-6 "></span>
       </div>
-      <section className=" grid grid-cols-4 gap-6 content-center place-content-center mx-[10%] w-[80%] my-[5rem]">
+      <section className="gsap-section-skill translate-x-[20%] opacity-0 grid grid-cols-4 gap-6 content-center place-content-center mx-[10%] w-[80%] my-[5rem]">
         {logos.map((logo) => {
           return (
             <>
