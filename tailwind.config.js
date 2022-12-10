@@ -8,17 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#ffffff',
-        secondary1: '#c0a58e',
-        secondary2: '#f2ede9',
-        border: '#645649',
-        spanColor: '#c5b19f',
-        font_color: '#232323',
+        primary: '#26232c',
+        secondary: '#71EAC6',
+        font_color: '#b2d1c9',
         custom: {
           DEFAULT: "#10B981",
           light: "#D1FAE5"
         }
       }
+      
     },
   },
   plugins: [],

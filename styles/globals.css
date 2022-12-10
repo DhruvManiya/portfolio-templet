@@ -7,9 +7,16 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Montserrat", "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: #b2d1c9;
+  background: #26232c;
 }
+
+.nev-el:hover{
+  text-shadow: 0 0 1rem #b2d1c9;
+}
+
 
 a {
   color: inherit;
@@ -18,4 +25,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #b2d1c9; 
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #71EAC6;
 }
