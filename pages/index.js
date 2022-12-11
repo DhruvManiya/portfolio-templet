@@ -5,6 +5,7 @@ import Follow from "../components/Follow";
 import Home from "../components/Home";
 import Nevbar from "../components/Nevbar";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 
 const index = () => {
   return (
@@ -15,6 +16,7 @@ const index = () => {
       <Home />
       <About />
       <Certificate />
+      <Projects />
       <Skills />
       <Follow />
     </>

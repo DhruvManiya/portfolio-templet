@@ -48,9 +48,9 @@ const About = () => {
           <h1 className="xl:text-[3.5rem] md:text-[3rem] sm:text-[2.5rem] text-[2rem] text-border tracking-[0.2rem]">
             About
           </h1>
-          <span className="h-[0.3rem] w-[10rem] bg-secondary rounded-[-50%] shadow-[0_0_0.5rem_#71EAC6] ml-6 "></span>
+          <span className="h-[0.3rem] w-[10rem] bg-secondary rounded-[50%] shadow-[0_0_0.5rem_#71EAC6] ml-6 "></span>
         </div>
-        <div className="flex flex-row justify-evenly items-center my-[5rem]">
+        <div className="flex flex-row justify-evenly items-start my-[5rem]">
           <img src="/me.jpg" className="gsap-my-image  translate-x-[50%] opacity-0" />
           <div className="w-[60%]">
             <p className="w-[85%] tracking-[0.05rem] text-[1.2rem] gsap-my-about  translate-x-[50%] opacity-0">

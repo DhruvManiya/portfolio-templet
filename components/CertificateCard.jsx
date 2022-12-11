@@ -5,19 +5,19 @@ const certis = [
     name: "AWS",
     image: "/certi.png",
     discription:
-      "Hello, Connections! I am happy to share that I am now an AWS Cloud Practitioner. Throughout learning process, I came across over 40+ AWS services offerings and various use cases. I would like to say thank you to Sandipkumar Patel - AWS Community Builder and Dr.Parth Shah sir for your continuous support and guidance, I would like to thanks also to JAY LAKHANI,Chintan Ghetiya and Jay Italiya for their help and support regarding examination.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veniam, eveniet voluptate iure magni officiis excepturi nemo sit facilis nobis cum impedit asperiores. Sint qui quasi placeat eos unde ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et exercitationem iusto officia dolor? Sequi odit, praesentium nemo quo ex saepe magni, eius obcaecati rerum facilis corrupti nulla vitae quibusdam adipisci? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat explicabo, laudantium, numquam optio illo cum quibusdam et omnis neque maxime, inventore alias facere eaque hic dignissimos dolorum beatae tempora id.",
   },
   {
     name: "AWS",
     image: "/certi.png",
     discription:
-      "Hello, Connections! I am happy to share that I am now an AWS Cloud Practitioner. Throughout learning process, I came across over 40+ AWS services offerings and various use cases. I would like to say thank you to Sandipkumar Patel - AWS Community Builder and Dr.Parth Shah sir for your continuous support and guidance, I would like to thanks also to JAY LAKHANI,Chintan Ghetiya and Jay Italiya for their help and support regarding examination.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veniam, eveniet voluptate iure magni officiis excepturi nemo sit facilis nobis cum impedit asperiores. Sint qui quasi placeat eos unde ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et exercitationem iusto officia dolor? Sequi odit, praesentium nemo quo ex saepe magni, eius obcaecati rerum facilis corrupti nulla vitae quibusdam adipisci? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat explicabo, laudantium, numquam optio illo cum quibusdam et omnis neque maxime, inventore alias facere eaque hic dignissimos dolorum beatae tempora id.",
   },
   {
     name: "AWS",
     image: "/certi.png",
     discription:
-      "Hello, Connections! I am happy to share that I am now an AWS Cloud Practitioner. Throughout learning process, I came across over 40+ AWS services offerings and various use cases. I would like to say thank you to Sandipkumar Patel - AWS Community Builder and Dr.Parth Shah sir for your continuous support and guidance, I would like to thanks also to JAY LAKHANI,Chintan Ghetiya and Jay Italiya for their help and support regarding examination.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veniam, eveniet voluptate iure magni officiis excepturi nemo sit facilis nobis cum impedit asperiores. Sint qui quasi placeat eos unde ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et exercitationem iusto officia dolor? Sequi odit, praesentium nemo quo ex saepe magni, eius obcaecati rerum facilis corrupti nulla vitae quibusdam adipisci? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat explicabo, laudantium, numquam optio illo cum quibusdam et omnis neque maxime, inventore alias facere eaque hic dignissimos dolorum beatae tempora id.",
   },
 ];
 

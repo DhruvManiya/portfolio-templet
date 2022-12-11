@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub,FaLinkedinIn,FaTelegramPlane,FaTwitter } from "react-icons/fa";
+import { FaGithub,FaLinkedinIn,FaTelegramPlane,FaTwitter,FaMailBulk } from "react-icons/fa";
 
 const Follow = () => {
   return (
@@ -16,6 +16,7 @@ const Follow = () => {
         <a href="" className="mx-[1rem]"><FaLinkedinIn size='2em' /></a>
         <a href="" className="mx-[1rem]"><FaTelegramPlane size='2em' /></a>
         <a href="" className="mx-[1rem]"><FaTwitter size='2em' /></a>
+        <a href="mailto:" className="mx-[1rem]"><FaMailBulk size='2em' /></a>
       </section>
     </main>
   );

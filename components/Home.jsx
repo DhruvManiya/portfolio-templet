@@ -48,7 +48,7 @@ const Home = () => {
           Lorem ipsum dolor
         </h1>
 
-        <a href="#contact" className="gsap-contact-button translate-x-[100%] opacity-0 ml-[4rem]">
+        <a href="#follow" className="gsap-contact-button translate-x-[100%] opacity-0 ml-[4rem]">
           <Button name="Contact" />
         </a>
       </div>
