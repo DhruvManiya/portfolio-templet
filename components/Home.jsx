@@ -29,8 +29,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="h-[85vh] w-[100%] flex justify-evenly items-center relative">
-      <div className=" absolute top-0 left-0 right-0 bottom-0 h-[100%] w-[100%] bg-primary">
+    <div className="h-[85vh] w-[100%] flex md:flex-row flex-col-reverse md:justify-evenly justify-center items-center relative">
+      <div className="md:block hidden absolute top-0 left-0 right-0 bottom-0 h-[100%] w-[100%] bg-primary">
         <img
           src="/image.jpg"
           className="h-[100%] w-[100%] object-cover opacity-[0.2] blur-[2px]"
@@ -52,7 +52,7 @@ const Home = () => {
           <Button name="Contact" />
         </a>
       </div>
-      <img src="/SVG.png" className="w-[20%] z-10 " />
+      <img src="/SVG.png" className="md:w-[20%] w-[80%] z-10 " />
     </div>
   );
 };

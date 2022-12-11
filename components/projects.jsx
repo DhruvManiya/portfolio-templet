@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import ProjectCards from "./ProjectCards";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -35,20 +35,19 @@ const projects = () => {
       delay: 0.2,
       opacity: 1,
     });
-
-  }
-    useEffect(() => {
-      animation();
-    }, []);
+  };
+  useEffect(() => {
+    animation();
+  }, []);
   return (
     <>
-      <main id="project" className="h-fit p-[2rem] mx-[13%]">
+      <main id="project" className="h-fit p-[2rem] md:mx-[13%]">
         <div className="gsap-title-project translate-y-[50%] opacity-0 flex w-full justify-center items-center mt-12">
-          <span className="h-[0.3rem] w-[10rem] bg-secondary rounded-[50%] shadow-[0_0_0.5rem_#71EAC6] mr-6 "></span>
+          <span className="h-[0.3rem] md:w-[10rem] w-[5rem] bg-secondary rounded-[50%] shadow-[0_0_0.5rem_#71EAC6] mr-6 "></span>
           <h1 className="xl:text-[3.5rem] md:text-[3rem] sm:text-[2.5rem] text-[2rem] text-border tracking-[0.2rem]">
             Projects
           </h1>
-          <span className="h-[0.3rem] w-[10rem] bg-secondary rounded-[50%] shadow-[0_0_0.5rem_#71EAC6] ml-6 "></span>
+          <span className="h-[0.3rem] md:w-[10rem] w-[5rem] bg-secondary rounded-[50%] shadow-[0_0_0.5rem_#71EAC6] ml-6 "></span>
         </div>
         <div className="gsap-section-project translate-x-[20%] opacity-0 flex flex-col justify-center items-center xl:items-end md:mt-[4rem] mb-4">
           <ProjectCards projects={projects} />

@@ -23,9 +23,9 @@ const ProjectCards = ({ projects }) => {
                 </p>
               </div>
               <div className="h-full xl:w-[40%] w-full flex flex-col">
-                <span className=" bg-secondary md:h-[3.5rem] h-[2rem] w-[100%] lg:rounded-tr-xl lg:rounded-tl-none rounded-t-xl"></span>
+                <span className=" bg-secondary md:h-[3.5rem] h-[2rem] w-[100%] xl:rounded-tr-xl xl:rounded-tl-none rounded-t-xl"></span>
                 <Carousel items={card.images} />
-                <span className="bg-secondary md:h-[3.5rem] h-[2rem] w-[100%] lg:rounded-br-xl"></span>
+                <span className="bg-secondary md:h-[3.5rem] h-[2rem] w-[100%] xl:rounded-br-xl"></span>
               </div>
             </div>
           </>

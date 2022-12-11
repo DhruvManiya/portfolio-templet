@@ -10,15 +10,17 @@ import Projects from "../components/Projects";
 const index = () => {
   return (
     <>
-      <div className="fixed w-[100%] z-[100000] bg-primary">
-        <Nevbar />
-      </div>
-      <Home />
-      <About />
-      <Certificate />
-      <Projects />
-      <Skills />
-      <Follow />
+      <main className="sm:overflow-x-visible overflow-x-hidden">
+        <div className="fixed w-[100%] z-[100000] bg-primary">
+          <Nevbar />
+        </div>
+        <Home />
+        <About />
+        <Certificate />
+        <Projects />
+        <Skills />
+        <Follow />
+      </main>
     </>
   );
 };
